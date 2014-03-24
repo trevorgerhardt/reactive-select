@@ -1,11 +1,11 @@
 
 # reactive-select
 
-  yields/select plugin for reactive/component
+[yields/select](https://github.com/yields/select) plugin for [component/reactive](https://github.com/component/reactive)
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+Install with [component(1)](http://component.io):
 
 ```bash
 $ component install trevorgerhardt/reactive-select
@@ -19,23 +19,23 @@ Two-way binding is by default. Change events on the model will update the select
 <div select="name" select-options="options" select-label="Label" select-multiple></div>
 ```
 
-### `#select(name)`
+### #select(name)
 
 A method that gets added to the view to allow for multiple select instances per view. Call it with the value name that corresponds to the select.
 
-### `select="name"`
+### select="name"
 
 Watches the given `select` attribute value that is retrieved using `this.value` and is passed to `Select#select`.
 
-### `select-options="options"`
+### select-options="options"
 
 The `options` array is retrieved with `this.value` and is passed to `Select#add`.
 
-### `select-multiple`
+### select-multiple
 
 If `select-multiple` is set, then it is assumed that the model value is an array. Calls `Select#multiple`.
 
-### `select-label="Label"`
+### select-label="Label"
 
 Calls `Select#label(label)`. Duh.
 
