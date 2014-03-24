@@ -1,0 +1,21 @@
+{
+  "name": "reactive-select",
+  "repo": "trevorgerhardt/reactive-select",
+  "description": "yields/select plugin for component/reactive",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "yields/select": "*"
+  },
+  "development": {
+    "component/assert": "*",
+    "component/domify": "*",
+    "component/model": "*",
+    "ianstormtaylor/reactive": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
