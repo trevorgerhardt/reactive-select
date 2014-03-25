@@ -1,7 +1,7 @@
 
 # reactive-select
 
-[yields/select](https://github.com/yields/select) plugin for [component/reactive](https://github.com/component/reactive)
+[yields/select](https://github.com/yields/select) plugin for [component/reactive](https://github.com/component/reactive). Two-way data binding for models.
 
 ## Installation
 

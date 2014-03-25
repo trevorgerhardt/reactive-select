@@ -29,7 +29,7 @@ describe('reactive-select', function() {
 
   it('should have the correct available options', function() {
     var view = {
-      stateOptions: [ 'Arizona', 'New York' ]
+      stateOptions: function() { return [ 'Arizona', 'New York' ]; }
     };
     var reactive = new Reactive(domify(template), new Person(), view);
 
